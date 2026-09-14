@@ -1,3 +1,22 @@
+FOR ENV
+
+Instruction: Create a .env file in the root directory of the project and add the 
+             following environment variables:
+
+PORT=3000
+
+MYSQL_HOST=localhost
+MYSQL_USER=root
+# MYSQL_PASSWORD=
+MYSQL_DATABASE=food_delivery
+
+MONGODB_URI=mongodb://127.0.0.1:27017/food_delivery_cache
+
+Note: Tweak the .env file to match your local environment settings. 
+The default values are set for a local development environment.
+
+=================================
+
 FOR MONGODB COLLECTION
 
 After cloning/pulling the project from GitHub:
