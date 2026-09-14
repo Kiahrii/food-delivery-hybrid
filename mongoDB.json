@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "6aa7e50f338ec9be12ecda4d"
+  },
+  "restaurantId": 1,
+  "restaurantName": "Campus Safe",
+  "items": [
+    {
+      "id": 1,
+      "name:": "Chicken Rice",
+      "description:": "Fried chicken with rice",
+      "price": 120
+    },
+    {
+      "id": 2,
+      "name:": "Burger",
+      "description:": "Beef burger with fries",
+      "price": 150
+    },
+    {
+      "id": 3,
+      "name:": "Iced Coffee",
+      "description:": "Cold brewed coffee",
+      "price": 80
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa7e570338ec9be12ecda4f"
+  },
+  "restaurantId": 2,
+  "restaurantName": "Quick Bites",
+  "items": [
+    {
+      "id": 4,
+      "name": "Pizza",
+      "description": "Cheese and pepperoni pizza",
+      "price": 250
+    }
+  ]
+}]

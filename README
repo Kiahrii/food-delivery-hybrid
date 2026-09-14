@@ -1,0 +1,24 @@
+FOR MONGODB COLLECTION
+
+After cloning/pulling the project from GitHub:
+1. Open MongoDB Compass.
+2. Connect to: mongodb://127.0.0.1:27017
+3. Import the JSON file from "mongoDB.json"
+4. Make sure the database/collection matches the names used in the project.
+5. Make sure MongoDB is running before starting the backend.
+
+===============================================================================
+
+FOR MYSQL DATABASE
+
+The MySQL database is included in the repository as: sql/database.sql
+
+After cloning/pulling the project from GitHub:
+1. Open XAMPP and start MySQL.
+2. Open phpMyAdmin.
+3. Go to Import.
+4. Select sql/database.sql from the project.
+5. Click Import.
+
+This will create the food_delivery database, its tables, and the initial restaurant/menu data.
+Make sure your local .env has the correct MySQL settings.
